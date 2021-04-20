@@ -1,17 +1,14 @@
-import java.util.ArrayList;
-
-
 public class vigenerecipher() implements cipher {
   private String ciphertext;
   private String key;
   
-  public cingerecipher(String ciphertext, String key) {
+  public vingerecipher(String ciphertext, String key) {
     this.ciphertext = ciphertext.toUpperCase();
     this.key = key.toUpperCase();
   }
   
   /*
-  Pre-requisite: A ciphertext and key must be inputted
+  Pre-requisite: A ciphertext and key must be inputed
   Post-requisite: No alterations to the ciphertext or key, returns a String with the decoded cipher
   */
   public String decoder(String ciphertext, String key) {
