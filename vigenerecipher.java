@@ -6,8 +6,8 @@ public class vigenerecipher() implements cipher {
   private String key;
   
   public cingerecipher(String ciphertext, String key) {
-    this.ciphertext = ciphertext;
-    this.key = key;
+    this.ciphertext = ciphertext.toUpperCase();
+    this.key = key.toUpperCase();
   }
   
   /*
@@ -15,23 +15,45 @@ public class vigenerecipher() implements cipher {
   Post-requisite: No alterations to the ciphertext or key, returns a String with the decoded cipher
   */
   public String decoder(String ciphertext, String key) {
-    String keyLC = key.toLowerCase();
-    String[] alphabet = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+    String[] alphabet = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    int[] keyNum = new int[key.length()];
     
-    int[] indexArr = new int[ciphertext.length()];
-    for(int i=0; i<ciphertext.length(); i++) {
-      String cLet = ciphertext.charAt(i)+"";
+    for(int i=0; i<key.length(); i++) {
+      String kLet = key.charAt(i)+"";
       int j=0;
-      while(j<alphabet.length) {
-        if(alphabet[j].equals(cLet)) {
-          indexArr[i] = j;
-          break;
+      while(j<alphabet.length){
+        if(alphabet[j].equals(kLet)) {
+          keyNum[i] = j;
         }
-        j++;
+        break;
       }
     }
     
+    String newWord = "";
+    for(int p=0; p<ciphertext.length(); p++) {
+      String cLet = ciphertext.charAt(p)+"";
+      
+      int pIndx;
+      int q=0;
+      while(q<alphabet.length){
+        if(alphabet[q].equals(cLet)) {
+          pIndx = q;
+        }
+        break;
+      }
+      
+      while(p>=key.length()) {
+        p-=key.length();
+      }
+      int newIndx = pIndx+keyNum[p];
+      
+      if(newIndx>25) {
+        newIndx-=25;
+      }
+      newWord+=alphabet[newIndx];
+    }
     
+    return newWord;
   }
   
 }
