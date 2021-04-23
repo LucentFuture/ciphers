@@ -1,5 +1,5 @@
 # Welcome!
-This is a repository exclusively for decoding ciphers! The language used is Java.
+This is a repository exclusively for decoding ciphers! The language used to solve these ciphers is Java. There will soon be a website available where you can decode without having to use the code yourself!
 
 # Current list of Ciphers
 - Vigenere Ciphers
