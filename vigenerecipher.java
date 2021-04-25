@@ -21,8 +21,8 @@ public class vigenerecipher() implements cipher {
       while(j<alphabet.length){
         if(alphabet[j].equals(kLet)) {
           keyNum[i] = j;
+          break;
         }
-        break;
       }
     }
     
@@ -35,8 +35,8 @@ public class vigenerecipher() implements cipher {
       while(q<alphabet.length){
         if(alphabet[q].equals(cLet)) {
           pIndx = q;
+          break;
         }
-        break;
       }
       
       while(p>=key.length()) {
@@ -44,7 +44,7 @@ public class vigenerecipher() implements cipher {
       }
       int newIndx = pIndx+keyNum[p];
       
-      if(newIndx>25) {
+      while(newIndx>25) {
         newIndx-=25;
       }
       newWord+=alphabet[newIndx];
