@@ -23,7 +23,7 @@ public class a1z26cipher() implements cipher {
           //check next.equals("-")
           //if next is a number, get said number
         }
-- wro
+        
         if(next.equals("-")) {
           //translate
           i++;
