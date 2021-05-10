@@ -3,13 +3,16 @@ This is a repository exclusively for decoding ciphers! The language used to solv
 
 <h1>Current list of Ciphers</h1>
 <ul>
-  <li>Vigenere Ciphers</li>
+  <li><a href="#vigenere">Vigenere Ciphers</li>
   <li>Ceasar Ciphers</li>
   <li>A1-Z26 Ciphers</li>
   <li>more to come!</li>
 </ul>
 
-# Additional info on Ciphers
-- Vigenere Cipher: a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It employs a form of polyalphabetic substitution. (wikipedia)
-- Ceasar Cipher: one of the simplest and most widely known encryption techniques; a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. (wikipedia)
-- A1-Z26 Cipher: its number in the alphabet replaces each alphabet letter -> A=1, B=2, ... , Z=26
+<h1>Additional info on Ciphers</h1>
+<h3 id="vigenere">Vigenere Cipher</h3>
+  a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It employs a form of polyalphabetic substitution. (wikipedia)
+<h3 id="ceasar">Ceasar Cipher</h3>
+  one of the simplest and most widely known encryption techniques; a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. (wikipedia)
+<h3 id="a1-z26">A1-Z26 Cipher</h3>
+  its number in the alphabet replaces each alphabet letter -> A=1, B=2, ... , Z=26
