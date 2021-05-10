@@ -3,9 +3,9 @@ This is a repository exclusively for decoding ciphers! The language used to solv
 
 <h1>Current list of Ciphers</h1>
 <ul>
-  <li><a href="#vigenere">Vigenere Ciphers</li>
-  <li>Ceasar Ciphers</li>
-  <li>A1-Z26 Ciphers</li>
+  <li><a href="#vigenere">Vigenere Ciphers</a></li>
+  <li><a href="#ceasar">Ceasar Ciphers</a></li>
+  <li><a href="a1-z26">A1-Z26 Ciphers</a></li>
   <li>more to come!</li>
 </ul>
 
