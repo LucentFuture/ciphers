@@ -5,7 +5,7 @@ This is a repository exclusively for decoding ciphers! The language used to solv
 <ul>
   <li><a href="#vigenere">Vigenere Ciphers</a></li>
   <li><a href="#ceasar">Ceasar Ciphers</a></li>
-  <li><a href="a1-z26">A1-Z26 Ciphers</a></li>
+  <li><a href="#a1-z26">A1-Z26 Ciphers</a></li>
   <li>more to come!</li>
 </ul>
 
