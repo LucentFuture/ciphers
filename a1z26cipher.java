@@ -32,6 +32,9 @@ public class a1z26cipher() implements cipher {
       }
     }
     
+    for(int j=0; j<alNum.size(); j++) {
+      word+=alphabet[alNum.get(j)];
+    }
     
     return word;
   }
