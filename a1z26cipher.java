@@ -19,19 +19,20 @@ public class a1z26cipher() implements cipher {
     for(int i=0; i<ciphertext.length(); i++) {
       String num = ciphertext.charAt(i)+"";
       
-      if(i<ciphertext.length()-1) {
+      if(!(num.equals("-"))) {
         String next = ciphertext.charAt(i)+"";
-
-        if(num.equals("1") || num.equals("2")) {
-          if(!(next.equals("-"))) {
-            word = num+next;
-          }
-          else {
-            word = num;
-          }
+        
+        if(next.equals("-")) {
+          alNum.add(Integer.parseInt(num));
+        }
+        else {
+          alNum.add(Integer.parseInt(num+next));
+          i++;
         }
       }
-      
-      return word;
     }
+    
+    
+    return word;
   }
+}
