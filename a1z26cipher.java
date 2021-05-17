@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class a1z26cipher() implements cipher {
   private String ciphertext;
   
@@ -11,6 +13,7 @@ public class a1z26cipher() implements cipher {
   */
   public String decoder(String ciphertext) {
     String[] alphabet = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    ArrayList<Integer> alNum = new ArrayList<Integer>;
     String word = "";
     
     for(int i=0; i<ciphertext.length(); i++) {
@@ -20,19 +23,12 @@ public class a1z26cipher() implements cipher {
         String next = ciphertext.charAt(i)+"";
 
         if(num.equals("1") || num.equals("2")) {
-          //check next.equals("-")
-          //if next is a number, get said number
-        }
-        
-        if(next.equals("-")) {
-          //translate
-          i++;
-        }
-      }
-      else {
-        String prev = ciphertext.charAt(i-1)+"";
-        if(prev.equals("-")) {
-          //get letter
+          if(!(next.equals("-"))) {
+            word = num+next;
+          }
+          else {
+            word = num;
+          }
         }
       }
       
