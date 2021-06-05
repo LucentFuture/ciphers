@@ -3,10 +3,10 @@ This is a repository exclusively for decoding ciphers! The language used to solv
 
 *Currently in progress of being edited as some of the code do not function as intended*
 
-<h1>Current list of Ciphers</h1>
+<h1>Current list of Ciphers (w/ decoders)</h1>
 <ul>
+  <li><a href="ceasar">Ceasar</li>
   <li><a href="#vigenere">Vigenere Ciphers</a></li>
-  <li><a href="#ceasar">Ceasar Ciphers</a></li>
   <li><a href="#a1-z26">A1-Z26 Ciphers</a></li>
   <li>more to come!</li>
 </ul>
@@ -24,3 +24,5 @@ This is a repository exclusively for decoding ciphers! The language used to solv
 <ul>
   <li>its number in the alphabet replaces each alphabet letter -> A=1, B=2, ... , Z=26</li>
 </ul>
+
+<strong>Encoders to be added alongside the decoders (coming soon as soon as decoders are fixed)</strong>
