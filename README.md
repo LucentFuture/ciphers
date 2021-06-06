@@ -2,9 +2,11 @@
 This is a repository exclusively for decoding and encoding ciphers! The language used is Java.
 
 <h2>To-Do list:</h2>
-- fix broken cipher code
-- add encoders to the ciphers as another method
-- create a website to use the encoders/decoders
+<ul>
+  <li>broken cipher code</li>
+  <li>add encoders to the ciphers as another method</li>
+  <li>create a website to use the encoders/decoders</li>
+</ul>
 
 <h2>Current list of Ciphers (w/ decoders)</h2>
 <ul>
