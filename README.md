@@ -3,7 +3,6 @@ This is a repository exclusively for decoding and encoding ciphers! The language
 
 <h2>To-Do list:</h2>
 <ul>
-  <li>fix broken cipher code <em><strong>*currently in progress*</strong></em></li>
   <li>add encoders to the ciphers as another method <em><strong>*currently in progress*</strong></em></li>
   <li>create a website to use the encoders/decoders</li>
   <li>add more ciphers!</li>
