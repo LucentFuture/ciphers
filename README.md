@@ -10,7 +10,7 @@ This is a repository exclusively for decoding and encoding ciphers! The language
 
 <h2>Current list of Ciphers (w/ decoders)</h2>
 <ul>
-  <li><a href="ceasar">Ceasar</li>
+  <li><a href="ceasar">Ceasar Ciphers</li>
   <li><a href="#vigenere">Vigenere Ciphers</a></li>
   <li><a href="#a1-z26">A1-Z26 Ciphers</a></li>
   <li>more to come!</li>
