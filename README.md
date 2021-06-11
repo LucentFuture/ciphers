@@ -17,13 +17,13 @@ This is a repository exclusively for decoding and encoding ciphers! The language
 </ul>
 
 <h2>Additional info on Ciphers</h2>
+<h4 id="ceasar">Ceasar Cipher</h4>
+<ul>
+  <li>one of the simplest and most widely known encryption techniques; each letter in the alphabet is replaced by a letter some fixed number of positions (cycles through so 1 ater z would be a).</li>
+</ul>
 <h4 id="vigenere">Vigenere Cipher</h4>
 <ul>
   <li>a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It employs a form of polyalphabetic substitution. (wikipedia)</li>
-</ul>
-<h4 id="ceasar">Ceasar Cipher</h4>
-<ul>
-  <li>one of the simplest and most widely known encryption techniques; a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. (wikipedia)</li>
 </ul>
 <h4 id="a1-z26">A1-Z26 Cipher</h4>
 <ul>
