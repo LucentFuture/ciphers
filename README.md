@@ -19,14 +19,18 @@ This is a repository exclusively for decoding and encoding ciphers! The language
 <h2>Additional info on Ciphers</h2>
 <h4 id="ceasar">Ceasar Cipher</h4>
 <ul>
-  <li>each letter in the alphabet is replaced by a letter some fixed number of positions (cycles through so 1 ater z would be a).</li>
+  <li>shifts each letter of the word a certain number of positions in the alphabet (cycles through so 1 ater z would be a).</li>
   <li>one of the simplest and most widely known encryption techniques</li>
 </ul>
 <h4 id="vigenere">Vigenere Cipher</h4>
 <ul>
-  <li>a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It employs a form of polyalphabetic substitution. (wikipedia)</li>
+  <li>the key repeats if the to-be-encoded word is longer than the key itself</li>
+  <li>traditional encoder/decoder: </li>
 </ul>
+<img src="https://www.researchgate.net/profile/Amin-Subandi/publication/318260132/figure/fig3/AS:513402955104258@1499416211147/Vigenere-Cipher-table.png" width=400>
+
 <h4 id="a1-z26">A1-Z26 Cipher</h4>
 <ul>
   <li>its number in the alphabet replaces each alphabet letter -> A=1, B=2, ... , Z=26</li>
+  <li>a dash is inbetween each letter to differenciate which letter is which</li>
 </ul>
