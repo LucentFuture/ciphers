@@ -24,6 +24,7 @@ This is a repository exclusively for decoding and encoding ciphers! The language
 </ul>
 <h4 id="vigenere">Vigenere Cipher</h4>
 <ul>
+  <li>similar to a ceasar cipher, but uses a word (key) instead of a number</li>
   <li>the key repeats if the to-be-encoded word is longer than the key itself</li>
   <li>traditional encoder/decoder: </li>
 </ul>
